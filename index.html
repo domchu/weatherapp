@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WeatherApp</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <link href="htts://fonts.googleapis.com/css?fomily=dosis" type="text/css" />
+    <link
+      href="//maxcdn.bootsrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+    />
+    <div class="container-fluid">
+      <div class="well full-text col-lg-6">
+        <div class="row text-center">
+          <h1>LOCAL WEATHER APP</h1>
+        </div>
+        <div class="result row text-center">
+          <img src="" class="icon-img" />
+          <p class="desc"></p>
+          <h3 class="citydetail"></h3>
+          <div class="flex">
+            <p class="temp"></p>
+            <span class="deg">&#8451;</span>
+          </div>
+          <input
+            type="search"
+            class="cityname"
+            placeholder="Enter Your State, Country"
+          /><br />
+          <div class="load">
+            <div class="loadingio-spinner-ripple-4wvh1r77iy6 ripper-wrapper">
+              <div class="ldio-h8t9zyvhjcq ids-ripple">
+                <div></div>
+                <div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <input type="button" value="Get Weather" class="getbtn" />
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
